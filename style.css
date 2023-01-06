@@ -39,7 +39,6 @@ header{
 }
 .header-content{
     text-align: right;
-    clear: both;
     color: #fff;
     padding:151px 207px 216px 807px;
 }
@@ -55,7 +54,7 @@ header{
     line-height: 26px;
     margin-bottom: 30px;
 }
-.header-btn{
+.header-btn, .call-btn{
     padding: 20px;
     border: none;
     font-size: 20px;
@@ -166,5 +165,46 @@ header{
     color: #fff;
 }
 .col:hover .box-details p{
+    color: #fff;
+}
+
+/* ------------ plan section ------------- */
+.plan{
+    text-align: center;
+}
+.flex-item{
+    width: 250px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.flex-item img{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.flex-item h4{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+/* --------------banner section with gradient color-------------- */
+
+.bg-img{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),  url(images/watch.png);
+    height: 300px;
+    border-radius: 5px;
+}
+
+.content{
+    padding: 50px 600px 147px 64px;
+    color: #fff;
+}
+.content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+/* -------------footer section-------------- */
+
+footer{
+    background-color: #151414;
     color: #fff;
 }
