@@ -29,6 +29,7 @@ section{
 .flex-box{
     display: flex;
     justify-content: space-between ;
+    gap: 85px;
 }
 
 /* header section */
@@ -40,7 +41,9 @@ header{
 .header-content{
     text-align: right;
     color: #fff;
-    padding:151px 207px 216px 807px;
+    width: 500px;
+    margin-left: 640px;
+    padding: 170px 0px;
 }
 .header-title{
     font-size: 65px;
@@ -63,9 +66,17 @@ header{
     border-radius: 5px;
 }
 /* previous fail section */
+.previous-fail .flex-box{
+    justify-content: left;
+}
 
+.fail-list h2{
+    margin-bottom: 15px ;
+    font-size: 40px;
+    font-weight: 700;
+}
 .failure-img{
-    width: 570px;
+    width: 550px;
 }
 .failure-img img{
     width: 100%;
