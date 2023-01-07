@@ -208,3 +208,49 @@ footer{
     background-color: #151414;
     color: #fff;
 }
+.future-item{
+    width: 500px;
+    padding: 130px 0px 130px 0px;
+}
+.future-item h1{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.future-item p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.future-item img{
+    margin-right: 10px;
+}
+.subscribe-item{
+    width: 320px;
+    padding: 130px 0px 130px 0px;
+}
+.subscribe-item h2{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.subscribe-item input{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border:1px solid #fff;
+    background-color: #151414;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 15px;
+}
+.subscribe-item input::placeholder{
+    color: #F3F3F3;
+    font-size: 18px;
+}
+.subscribe-btn{
+    padding: 17px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    background-color: #005fac;
+}
